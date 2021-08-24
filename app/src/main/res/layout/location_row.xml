@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:layout_marginBottom="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:id="@+id/location_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/location_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COUNTRY"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude: "/>
+        <TextView
+            android:id="@+id/location_lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.9319"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude: "
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/location_lon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.9319"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

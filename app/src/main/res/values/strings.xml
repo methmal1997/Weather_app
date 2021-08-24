@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">final assignment</string>
+    <string-array name="temp_choice">
+        <item>Celcious</item>
+        <item>Franheit</item>
+    </string-array>
+</resources>
